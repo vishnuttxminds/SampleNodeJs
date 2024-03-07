@@ -43,7 +43,12 @@ stdInfo.setGrade = "G+";
 stdInfo.setDurations = 10;
 stdInfo.setRollNumber = 33;
 
+// console.log("====================================");
+// console.log(stdInfo);
+// console.log(stdInfo.getFullDetails());
+// console.log("====================================");
+
 console.log("====================================");
-console.log(stdInfo);
-console.log(stdInfo.getFullDetails());
+console.log("Student Keys >> ", Object.keys(stdInfo));
+console.log("Student Values >> ", Object.values(stdInfo));
 console.log("====================================");

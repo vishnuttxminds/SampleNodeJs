@@ -1,4 +1,4 @@
-interface Student {
+type Student = {
   name: string;
   rollno: number;
   course: string;
