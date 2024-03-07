@@ -51,7 +51,7 @@ const job = {
     showDetails() {
         const accepting = this.isAvailable ? 'is accepting applications' : "is not currently accepting applications";
 
-        console.log(`The ${this.position} position is ${this.type} and ${accepting}.`);
+        // console.log(`The ${this.position} position is ${this.type} and ${accepting}.`);
     }
 };
 const sentance = Object.create(job);
@@ -80,7 +80,7 @@ let personalAddress = {
 
   personalAddress.hobbies.forEach((item, index) => {
     if (index === 1) {
-        console.log(item);
+        // console.log(item);
     }
 });
 
@@ -99,18 +99,18 @@ const keys = Object.keys(employees);
 Object.keys(employees).forEach(key => {
     let value = employees[key];
 
-	 console.log(`${key}: ${value}`);
+	//  console.log(`${key}: ${value}`);
 });
 
 
 // Get the length of the keys
 const length = Object.keys(employees).length;
 
-console.log(length);
+// console.log(length);
 
 const values = Object.values(employees);
 
-console.log(values);
+// console.log(values);
 
 
 
@@ -123,14 +123,14 @@ const operatingSystem = {
 // Get the object key/value pairs
 const entries = Object.entries(operatingSystem);
 
-console.log(entries);
+// console.log(entries);
 
 
 entries.forEach(entry => {
     let key = entry[0];
     let value = entry[1];
 
-    console.log(`${key}: ${value}`);
+    // console.log(`${key}: ${value}`);
 });
 
 
@@ -148,7 +148,7 @@ const details = {
 // Merge the objects
 const character = Object.assign(nameData, details);
 
-console.log(character);
+// console.log(character);
 
 
 // Initialize an object
@@ -166,7 +166,7 @@ const JobDetails = {
 // Merge the object with the spread operator
 const characterDetails = {...nameDetails, ...details}
 
-console.log(characterDetails);
+// console.log(characterDetails);
 
 // ==============================================
 const user = {
@@ -180,8 +180,12 @@ const newUser = Object.freeze(user);
 newUser.password = '*******';
 newUser.active = true;
 
-console.log(newUser);
+// console.log(newUser);
 
-// console.log('====================================');
-// console.log(keys);
-// console.log('====================================');
+// hello = () => {
+//   return "Hello World!";
+// }
+hello = () => "Hello World!";
+console.log('====================================');
+console.log(hello());
+console.log('====================================');
