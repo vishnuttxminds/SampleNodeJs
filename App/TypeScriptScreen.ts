@@ -51,4 +51,9 @@ stdInfo.setRollNumber = 33;
 console.log("====================================");
 console.log("Student Keys >> ", Object.keys(stdInfo));
 console.log("Student Values >> ", Object.values(stdInfo));
+
+
+console.log("Student entries >> ",  Object.entries(stdInfo));
+
+
 console.log("====================================");
